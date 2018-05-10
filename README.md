@@ -6,12 +6,12 @@ An ansible role that stores information about the current ansible (become) user.
 
 Correctly populates the variables:
 
-  current_user:  # username of current become user
-  current_user_home:  # home directory of current become user
+    current_user:  # username of current become user
+    current_user_home:  # home directory of current become user
 
 ## Installation
 
-`ansible-galaxy install marvel-nccr.current-user`
+`ansible-galaxy install marvel-nccr.current-user`.
 
 ## Role Variables
 
