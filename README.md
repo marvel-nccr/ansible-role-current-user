@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/marvel-nccr/ansible-role-current-user.svg?branch=master)](https://travis-ci.org/marvel-nccr/ansible-role-current-user)
 
-# Ansible Role: marvel-nccr.current-user
+# Ansible Role: marvel-nccr.current_user
 
 An ansible role that stores information about the current ansible (become) user.
 
@@ -11,7 +11,7 @@ Correctly populates the variables:
 
 ## Installation
 
-`ansible-galaxy install marvel-nccr.current-user`.
+`ansible-galaxy install marvel-nccr.current_user`.
 
 ## Role Variables
 
@@ -19,9 +19,11 @@ See `defaults/main.yml`
 
 ## Example Playbook
 
+```
   - hosts: servers
     roles:
-    - role: marvel-nccr.current-user
+    - role: marvel-nccr.current_user
+```
 
 ## License
 

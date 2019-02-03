@@ -8,7 +8,7 @@ services:
 
 env:
   global:
-    - ANSIBLE_ROLE: current-user
+    - ANSIBLE_ROLE: current_user
 
 matrix:
   include:

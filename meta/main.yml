@@ -2,6 +2,7 @@
 allow_duplicates: false
 
 galaxy_info:
+  role_name: current_user
   author: "MARVEL NCCR"
   description: "An ansible role that stores information about the current ansible (become) user."
   license: MIT
